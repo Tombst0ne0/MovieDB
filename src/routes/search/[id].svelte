@@ -14,7 +14,7 @@
 </script>
 
 <script>
-	import MovieCard from '/MovieDB/moviedb/src/components/MovieCard.svelte';
+	import MovieCard from 'MovieDB/moviedb/src/components/MovieCard.svelte';
 	export let searchedMovie;
 </script>
 
