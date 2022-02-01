@@ -4,6 +4,7 @@
 </script>
 
 <h3>Popular Movies</h3>
+<h4>(Source TMDB.org)</h4>
 <div class="popular-movies">
 	{#each popular as movie}
 		<MovieCard {movie} />
@@ -14,6 +15,9 @@
 	h3 {
 		padding: 0 1rem;
 		font-size: 1.9rem;
+	}
+	h4 {
+		padding: 0 1rem;
 	}
 	.popular-movies {
 		display: grid;
